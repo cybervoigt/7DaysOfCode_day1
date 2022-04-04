@@ -8,28 +8,47 @@ Eu consegui fazendo assim:
 
 1. criei este repositório aqui no github
 
+
 2. fiz clone do repositório para uma pasta local
+
 git clone https://github.com/cybervoigt/7DaysOfCode_day1.git
 
+
 3. criei o projeto React, com styled-components
+
 npx create-next-app --example with-styled-components day1
-Foi criada a nova pasta "day1"
+
+OBS: Foi criada a nova pasta "day1"
+
 
 4. fiz a quebra do problema em outros componentes, conforme proposto.
-(deixei a parte de "design" e css pra depois)
+
+OBS: deixei a parte de "design" e css pra depois.
+
 
 5. No VSCode clicar em "Open Folder" e selecionar a pasta "day1".
 
-6. No menu "New Terminal" este comando executa a aplicação para compilar e testar
+
+6. No menu "New Terminal" e rodei este comando para compilar e testar a aplicação
+
 npm run dev
 
-8. no prompt, para adicionar a pasta "src" rodei este comando
+OBS: rodei em modo web neste caminho: http://localhost:3000/
+
+
+8. De volta ao GIT, para adicionar a pasta "src" rodei este comando no prompt:
+
 git add src
 
+
 9. rodei o comando abaixo para confirmar as alterações feitas, e inserindo uma mensagem
+
 git commit -m "First commit..."
 
+
 10. Finalmente o comando push para enviar os arquivos para o repositório dentro do github
+
 git push -u origin main
-Aqui abriu uma janela do git pedindo a autenticação, onde colei o token.
+
+OBS: Aqui abriu uma janela do git pedindo a autenticação, onde colei o token.
 
