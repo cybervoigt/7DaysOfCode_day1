@@ -3,7 +3,7 @@
 
 Eu pensei em aproveitar esse "7 days of code" pra tentar fazer push do meu computador local para um novo repositório dentro do GITHUB e finalmente conseugi...
 
-Eu já tinha instalado o NODE e GIT, e segui os seguintes passos:
+Eu já tinha instalado o NPM e GIT, e segui os seguintes passos:
 
 1. criei este repositório aqui no GITHUB.
 
@@ -21,7 +21,7 @@ OBS: este comando apenas lista as configurações "git config -l"
 git clone https://github.com/cybervoigt/7DaysOfCode_day1.git
 
 
-4. criei o projeto REACT com styled-components, rodando este comando do NODE no prompt
+4. criei o projeto REACT com styled-components, rodando este comando no prompt
 
 npx create-next-app --example with-styled-components day1
 
